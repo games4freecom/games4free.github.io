@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GAMES4FREE - The Best Game Collection 2000</title>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: 'MedievalSharp', serif;
+            margin: 0;
+            padding: 0;
+            font-size: 18px;
+        }
+
+        a { color: #ffffff; text-decoration: underline; }
+        a:hover { color: #ffff00; text-decoration: none; }
+
+        h1, h2, h3 { margin: 5px 0; font-weight: normal; text-align: center; }
+        
+        .slogan {
+            font-size: 1.2rem;
+            color: #ffffff;
+            margin-top: 10px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .blink {
+            animation: blinker 1s linear infinite;
+            color: #ff0000;
+            font-weight: bold;
+        }
+        @keyframes blinker { 50% { opacity: 0; } }
+
+        .retro-button {
+            background-color: #000;
+            color: #fff;
+            font-family: 'MedievalSharp', serif;
+            border: 2px outset #ffffff; 
+            padding: 5px 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .retro-button:active { border: 2px inset #ffffff; }
+
+        /* Game Cover Styles */
+        .game-cover {
+            width: 150px;
+            height: 200px;
+            border: 3px solid #ffffff;
+            margin-bottom: 10px;
+            background-color: #1a1a1a;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        hr { border: 0; border-top: 1px solid #ffffff; margin: 20px 0; }
+    </style>
+</head>
+<body>
+
+    <table width="100%" border="0" cellspacing="0" cellpadding="10">
+        <tr>
+            <td align="center" style="border-bottom: 2px solid white;">
+                <h1>=== GAMES4FREE ===</h1>
+                <div class="slogan">THE BEST GAMES AT YOUR HAND, 100% FREE!</div>
+                <marquee scrollamount="5" bgcolor="#333333" width="80%" style="margin-top:10px;">
+                    *** WELCOME TO THE NEW MILLENNIUM OF GAMING *** DOWNLOAD NOW *** NO CREDIT CARD REQUIRED ***
+                </marquee>
+            </td>
+        </tr>
+    </table>
+
+    <table width="100%" border="1" bordercolor="#ffffff" cellspacing="0" cellpadding="0">
+        <tr valign="top">
+            <td width="200" bgcolor="#000000" style="padding: 15px;">
+                <center><h3>MENU</h3><hr width="80%"></center>
+                <ul>
+                    <li><a href="#cavegame">Cavegame</a> <span class="blink">NEW!</span></li><br>
+                    <li><a href="#sonic">Sonic</a></li><br>
+                    <li><a href="#megaman">Megaman</a></li><br>
+                    <li><a href="#pacman">Pacman</a></li><br>
+                    <li><a href="#pvsz">P. vs Zombies</a></li>
+                </ul>
+            </td>
+
+            <td style="padding: 20px;">
+                <center><h2>.: LATEST RELEASES :.</h2></center>
+                <hr>
+
+                <a name="cavegame"></a>
+                <center>
+                    <img src="https://via.placeholder.com/150x200/000000/FFFFFF?text=CAVEGAME+BOX" alt="Cavegame Cover" class="game-cover">
+                    <h3>CAVEGAME</h3>
+                    <p>Dig, build, and survive in a world of cubes!</p>
+                    <button class="retro-button" onclick="alert('Downloading...')">DOWNLOAD NOW</button>
+                </center>
+                <hr width="50%">
+
+                <a name="sonic"></a>
+                <center>
+                    <img src="https://via.placeholder.com/150x200/000000/FFFFFF?text=SONIC+BOX" alt="Sonic Cover" class="game-cover">
+                    <h3>SONIC THE HEDGEHOG</h3>
+                    <p>Blast through zones at lightning speed!</p>
+                    <button class="retro-button" onclick="alert('Starting...')">PLAY NOW</button>
+                </center>
+                <hr width="50%">
+
+                <a name="megaman"></a>
+                <center>
+                    <img src="https://via.placeholder.com/150x200/000000/FFFFFF?text=MEGAMAN+BOX" alt="Megaman Cover" class="game-cover">
+                    <h3>MEGAMAN</h3>
+                    <p>The blue bomber is back to stop Dr. Wily!</p>
+                    <button class="retro-button" onclick="alert('Starting...')">PLAY NOW</button>
+                </center>
+                <hr width="50%">
+
+                <a name="pacman"></a>
+                <center>
+                    <img src="https://via.placeholder.com/150x200/000000/FFFFFF?text=PACMAN+BOX" alt="Pacman Cover" class="game-cover">
+                    <h3>PACMAN</h3>
+                    <p>The arcade legend returns for your browser.</p>
+                    <button class="retro-button" onclick="alert('Starting...')">PLAY NOW</button>
+                </center>
+                <hr width="50%">
+
+                <a name="pvsz"></a>
+                <center>
+                    <img src="https://via.placeholder.com/150x200/000000/FFFFFF?text=PVZ+BOX" alt="PvZ Cover" class="game-cover">
+                    <h3>PLANTS VS ZOMBIES</h3>
+                    <p>Get your plants ready! The zombies are coming...</p>
+                    <button class="retro-button" onclick="alert('Starting...')">PLAY NOW</button>
+                </center>
+
+                <br><center><a href="#top">[ BACK TO TOP ]</a></center>
+            </td>
+        </tr>
+    </table>
+
+    <center>
+        <br><p>Visitor Count:</p>
+        <div style="border: 1px solid white; display: inline-block; padding: 2px 5px; font-family: 'Courier New', monospace; background: #222;">004381</div>
+        <p style="font-size: 12px;">(c) 2000 GAMES4FREE. Best viewed in 800x600 resolution.</p>
+    </center>
+</body>
+</html>
